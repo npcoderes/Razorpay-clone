@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@media (max-width:480px) {
+
+    .hero-h1{
+        width: 80%;
+        font-size: 8vw;
+        font-weight: bolder;
+        /* margin: 0 auto; */
+    }
+ 
+    .fe3-sec{
+        margin-top: -10rem;
+    }
+
+    .fe2-h3{
+       font-size: 2vw;
+    }
+    .con-ul li{
+        font-size: 2.3vw;
+    }
+
+    .con-h3{
+        font-size: 5vw;
+    }
+
+    .con-btn1{
+        width: 70vw;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .con-div{
+        right: 20%;
+    }
+
+    .con-img{
+        width: 250px;
+        /* margin: 0 auto; */
+    }
+
+    .fe6-rd{
+        width: 60vw;
+        margin: 25px auto;
+    }
+
+    .fe6p{
+        align-self: flex-start;
+        width: 60vw;
+        font-size: 5vw;
+        /* margin: none;
+        align-self: flex-start; */
+    }
+
+    .fe6-btn1{
+        height: 40px;
+        width: 40px;
+        left: -40px;
+    }
+    .fe6-btn2{
+        height: 40px;
+        width: 40px;
+        right: -40px;
+    }
+
+    .fe5-mov{
+        width: 90vw;
+        height: 400px;
+        margin: 0 auto;
+    }
+
+}
